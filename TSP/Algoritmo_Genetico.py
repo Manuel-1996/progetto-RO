@@ -36,17 +36,17 @@ class Algoritmo_Genetico:
     def selezioneMontecarlo(self, popolazione_precedente):
         cumulati_fitness = []
         fitness_totale=0
-        for percorso in popolazione_precedente:
+        for percorso in popolazione_precedente.get_percorsi():
             fitness_totale= fitness_totale+percorso.get_fitness()
 
-        for i in range(0, len(popolazione_precedente)):
+        for i in range(0, len(popolazione_precedente.get_percorsi())):
             cumulato = 0
             for j in range(0,i+1):
                 cumulato = cumulato + popolazione_precedente.get_percorsi()[i].get_fitness()
             cumulati_fitness = cumulati_fitness+[cumulato]
         a = random()
         b = random()
-        for index in range(0,cumulati_fitness):
+        for index in range(0,len(cumulati_fitness)):
             if a>=cumulati_fitness[index+1] and a<cumulati_fitness[index]:
                 s = index
                 break
