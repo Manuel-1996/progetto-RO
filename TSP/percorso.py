@@ -6,7 +6,7 @@ import urllib.parse
 
 # KEY & URL per le richiesta HTTPS al sito MaPQuest
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
-key = "qvHXsfuSwsorNzYfBWDpAN37r1MjrmZE"
+key = "ILgdVnw9nFyienjyuhPjq2TzefdbY25R"
 
 
 class percorso:
@@ -46,7 +46,7 @@ class percorso:
     def get_fitness(self):
         if self.boolean == False:
             self.calcolaDistanzaTotale();
-            self.fitness = self.totale_secondi
+            self.fitness = 1/(self.totale_secondi)
             self.boolean = True
         return self.fitness
 

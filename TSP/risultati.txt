@@ -1,0 +1,10 @@
+POPOLAZIONE N.ro 0
+Percorso                                                                                          Durata Viaggio         [Km]
+Torino Napoli                                                            0:1.7814515267039583e-05:00                   1790.289
+Torino Napoli                                                            0:1.7814515267039583e-05:00                   1790.289
+Torino Napoli                                                            0:1.7814515267039583e-05:00                   1790.289
+Torino Napoli                                                            0:1.7814515267039583e-05:00                   1790.289
+Torino Napoli                                                            0:1.7814515267039583e-05:00                   1790.289
+Torino Napoli                                                            0:1.7814515267039583e-05:00                   1790.289
+Napoli Torino                                                            0:1.7814515267039583e-05:00                   1790.289
+Torino Napoli                                                            0:1.7814515267039583e-05:00                   1790.289

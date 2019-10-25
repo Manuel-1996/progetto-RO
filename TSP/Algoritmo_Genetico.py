@@ -23,13 +23,39 @@ class Algoritmo_Genetico:
         popolazionecross = popolazione(self.percorsoiniziale)
         popolazionecross.set_percorso(popolazione_precedente.get_percorsi()[0], 0)
         for index in range(1, len(popolazione_precedente.get_percorsi())):
-            random1 = int(random() * (len(popolazione_precedente.get_percorsi())))
-            random2 = int(random() * (len(popolazione_precedente.get_percorsi())))
-
-            percorso1 = popolazione_precedente.get_percorsi()[random1]
-            percorso2 = popolazione_precedente.get_percorsi()[random2]
+            #a = int(random() * (len(popolazione_precedente.get_percorsi())))
+            #b = int(random() * (len(popolazione_precedente.get_percorsi())))
+            l= self.selezioneMontecarlo(popolazione_precedente)
+            a = l[0]
+            b = l[1]
+            percorso1 = popolazione_precedente.get_percorsi()[a]
+            percorso2 = popolazione_precedente.get_percorsi()[b]
             popolazionecross.set_percorso(self.crossover_percorso(percorso1, percorso2), index)
         return popolazionecross
+
+    def selezioneMontecarlo(self, popolazione_precedente):
+        cumulati_fitness = []
+        fitness_totale=0
+        for percorso in popolazione_precedente:
+            fitness_totale= fitness_totale+percorso.get_fitness()
+
+        for i in range(0, len(popolazione_precedente)):
+            cumulato = 0
+            for j in range(0,i+1):
+                cumulato = cumulato + popolazione_precedente.get_percorsi()[i].get_fitness()
+            cumulati_fitness = cumulati_fitness+[cumulato]
+        a = random()
+        b = random()
+        for index in range(0,cumulati_fitness):
+            if a>=cumulati_fitness[index+1] and a<cumulati_fitness[index]:
+                s = index
+                break
+        for index in range(0,cumulati_fitness):
+            if b>=cumulati_fitness[index+1] and b<cumulati_fitness[index]:
+                t = index
+                break
+        l = [s,t]
+        return l
 
     # crossoverPercorso() effettua il crossover tra due percorsi.
     # Sceglie un percorso a caso tra i due; crea un percorso intermedio inserendo in esso 5 città
