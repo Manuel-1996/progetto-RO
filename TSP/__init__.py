@@ -47,7 +47,7 @@ class Main:
             file.writelines(
                 "Percorso                                                           Durata Viaggio        [Km]\n")
             popolazione.stampa(file)
-            print("generazione Effettuata")
+            print("generazione Effettuata" , generazioni,sep = "--->")
             popolazioneiniziale = popolazione
 
         file.writelines("\n\nmiglior percorso trovato \n")
