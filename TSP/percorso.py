@@ -6,11 +6,13 @@ import urllib.parse
 
 # KEY & URL per le richiesta HTTPS al sito MaPQuest
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
+#prossimo api EaF17fbNd94S8dwHQ3xY8wGMqgmQvG1E
 key = "ILgdVnw9nFyienjyuhPjq2TzefdbY25R"
 
 
 class percorso:
     def __init__(self, citta):
+        self.totalekm=0
         self.totale_secondi = 0
         self.boolean = False
         cittamia = [];
@@ -31,13 +33,21 @@ class percorso:
     def stampa(self, file):
         for i in range(len(self.citta)):
             file.writelines(self.citta[i].get_nome() + " ")
-        file.writelines("                                                           " + self.converti_minuti_ore(
-            self.fitness) + "                   ")
-        file.writelines(str(self.calcolaDistanzaTotale()) + "\n")
+        file.writelines("                                                           " +
+            str(self.fitness) + "                   ")
+        file.writelines(str(self.totalekm) + "\n")
 
-    def converti_minuti_ore(self, minuti):
+    def stampa_finale(self, file):
+        for i in range(len(self.citta)):
+            print(self.citta[i].get_nome() + " ")
+        print("                                                           " +
+            self.converti_fitness_ore(self.fitness) + "                   ")
+        print(str(self.totalekm) + "\n")
+
+    def converti_fitness_ore(self, fitness):
+        minuti=(10**6)/fitness
         ore = int(minuti / 60)
-        minuti = minuti - (ore * 60)
+        minuti = int(minuti - (ore * 60))
         return str(ore) + ":" + str(minuti) + ":00"
 
     def set_citta(self, citta, index):
@@ -45,8 +55,8 @@ class percorso:
 
     def get_fitness(self):
         if self.boolean == False:
-            self.calcolaDistanzaTotale();
-            self.fitness = 1/(self.totale_secondi)
+            self.totalekm = self.calcolaDistanzaTotale();
+            self.fitness = ((1/(self.totale_secondi))*10**6)
             self.boolean = True
         return self.fitness
 

@@ -35,7 +35,7 @@ class Main:
             "Percorso                                                                                          Durata Viaggio         [Km]\n")
         generazioni = generazioni + 1
         popolazioneiniziale.stampa(file)
-        print("Generazioni Effettuata")
+        print("Generazioni Effettuata--->1")
         algoritmo_genetico = Algoritmo_Genetico(initpercorso)
         while (generazioni < 20):
             popolazione = algoritmo_genetico.evoluzione(popolazioneiniziale)
@@ -51,6 +51,8 @@ class Main:
             popolazioneiniziale = popolazione
 
         file.writelines("\n\nmiglior percorso trovato \n")
+        popolazioneiniziale.stampa_finale()
+
        # for index in range(len(popolazioneiniziale.get_percorsi()[0].get_citta())):
        #     file.writelines(str(popolazione.get_percorsi()[0].get_citta()[index].get_nome) + "  ")
        #     file.writelines(
