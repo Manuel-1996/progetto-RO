@@ -32,7 +32,7 @@ class Main:
         file.writelines("POPOLAZIONE N.ro ")
         file.writelines(str(generazioni) + "\n")
         file.writelines(
-            "Percorso                                                                                          Durata Viaggio         [Km]\n")
+            "Percorso                                                                               Fitness         [Km]\n")
         generazioni = generazioni + 1
         popolazioneiniziale.stampa(file)
         print("Generazioni Effettuata--->1")
@@ -45,18 +45,13 @@ class Main:
 
             file.writelines(str(generazioni) + "\n")
             file.writelines(
-                "Percorso                                                           Durata Viaggio        [Km]\n")
+                "Percorso                                                       Fitness       [Km]\n")
             popolazione.stampa(file)
             print("generazione Effettuata" , generazioni,sep = "--->")
             popolazioneiniziale = popolazione
 
         file.writelines("\n\nmiglior percorso trovato \n")
-        popolazioneiniziale.stampa_finale()
-
-       # for index in range(len(popolazioneiniziale.get_percorsi()[0].get_citta())):
-       #     file.writelines(str(popolazione.get_percorsi()[0].get_citta()[index].get_nome) + "  ")
-       #     file.writelines(
-       #         "\n Durata Viaggio\n" + self.converti_minuti_ore(popolazione.get_percorsi()[0].get_fitness()))
+        popolazioneiniziale.stampa_finale(file)
         file.close()
 
     def converti_minuti_ore(self, minuti):

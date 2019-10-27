@@ -2,7 +2,6 @@ from percorso import percorso
 import random
 import sys
 
-
 class popolazione:
 
     def __init__(self, percorsoiniziale):
@@ -17,8 +16,8 @@ class popolazione:
         print(
             "----------------------------------------------------------------------------------------------------------------------------------")
 
-    def stampa_finale(self):
-        self.get_percorsi()[0].stampa_finale()
+    def stampa_finale(self,file):
+        self.get_percorsi()[0].stampa_finale(file)
         print(
             "----------------------------------------------------------------------------------------------------------------------------------")
 

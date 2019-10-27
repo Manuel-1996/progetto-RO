@@ -37,12 +37,12 @@ class percorso:
             str(self.fitness) + "                   ")
         file.writelines(str(self.totalekm) + "\n")
 
-    def stampa_finale(self, file):
+    def stampa_finale(self,file):
         for i in range(len(self.citta)):
-            print(self.citta[i].get_nome() + " ")
-        print("                                                           " +
+            file.writelines(self.citta[i].get_nome() + " ")
+        file.writelines("                                                           " +
             self.converti_fitness_ore(self.fitness) + "                   ")
-        print(str(self.totalekm) + "\n")
+        file.writelines(str(self.totalekm) + "\n")
 
     def converti_fitness_ore(self, fitness):
         minuti=(10**6)/fitness
