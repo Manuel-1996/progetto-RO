@@ -37,7 +37,7 @@ class popolazione:
             key = array[j]
             i = j - 1
             # si ordina tale elemento tra tutti quelli che lo precedono
-            while i >= 0 and array[i].get_fitness() > key.get_fitness():
+            while i >= 0 and array[i].get_fitness() < key.get_fitness():
                 array[i + 1] = array[i]
                 i = i - 1
             array[i + 1] = key

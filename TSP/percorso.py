@@ -6,8 +6,8 @@ import urllib.parse
 
 # KEY & URL per le richiesta HTTPS al sito MaPQuest
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
-#prossimo api EaF17fbNd94S8dwHQ3xY8wGMqgmQvG1E
-key = "ILgdVnw9nFyienjyuhPjq2TzefdbY25R"
+#prossimo token
+key = "F9cbjKuu2QEjWnzQF3LQGHFX04PYhPhl"
 
 
 class percorso:

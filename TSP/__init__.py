@@ -37,7 +37,7 @@ class Main:
         popolazioneiniziale.stampa(file)
         print("Generazioni Effettuata--->1")
         algoritmo_genetico = Algoritmo_Genetico(initpercorso)
-        while (generazioni < 20):
+        while (generazioni < 40):
             popolazione = algoritmo_genetico.evoluzione(popolazioneiniziale)
             popolazione.ordina_fitnes()
             file.writelines("POPOLAZIONE N.ro ")

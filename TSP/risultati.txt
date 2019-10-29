@@ -1,204 +1,290 @@
 POPOLAZIONE N.ro 0
-Percorso                                                                                          Durata Viaggio         [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
+Percorso                                                                               Fitness         [Km]
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Siracusa Modena Bologna Taranto Padova Cagliari Monza Udine Catania Palermo                                                            2.8571265307055387                   7139.3411
+Udine Bologna Cagliari Modena Taranto Siracusa Padova Palermo Catania Monza                                                            2.718721113588168                   8019.520399999999
+Monza Palermo Bologna Modena Taranto Padova Udine Siracusa Catania Cagliari                                                            2.71111448494247                   7655.894200000001
+Udine Palermo Siracusa Taranto Padova Modena Bologna Cagliari Monza Catania                                                            2.695911919165777                   7831.656699999999
+Udine Siracusa Cagliari Monza Taranto Catania Padova Palermo Modena Bologna                                                            2.411724841489385                   8828.9639
+Udine Modena Padova Cagliari Taranto Monza Siracusa Catania Bologna Palermo                                                            2.368153077414924                   9034.150800000001
+Modena Catania Siracusa Monza Taranto Padova Cagliari Udine Palermo Bologna                                                            2.2712664354517433                   9711.9182
 POPOLAZIONE N.ro 2
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Cagliari Palermo Siracusa Taranto Padova Catania Modena Monza Bologna Udine                                                            3.033603222900064                   6494.006999999999
+Taranto Cagliari Catania Bologna Padova Monza Udine Palermo Modena Siracusa                                                            2.4987631122594314                   8259.514000000001
+Modena Catania Siracusa Monza Taranto Padova Udine Palermo Bologna Cagliari                                                            2.4682155542007798                   9204.0301
+Udine Modena Padova Cagliari Taranto Monza Siracusa Catania Bologna Palermo                                                            2.368153077414924                   9034.150800000001
+Modena Catania Siracusa Monza Taranto Padova Cagliari Udine Palermo Bologna                                                            2.2712664354517433                   9711.9182
+Udine Siracusa Cagliari Monza Taranto Padova Modena Catania Bologna Palermo                                                            2.1787631597294848                   10175.233600000001
+Siracusa Modena Bologna Palermo Padova Cagliari Udine Taranto Catania Monza                                                            2.086994269113737                   10654.964200000002
 POPOLAZIONE N.ro 3
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Monza Palermo Siracusa Taranto Padova Bologna Udine Modena Catania Cagliari                                                            3.0403084088849974                   6462.8859999999995
+Taranto Cagliari Catania Bologna Padova Palermo Udine Modena Monza Siracusa                                                            2.478204194112778                   8375.6248
+Modena Catania Siracusa Monza Taranto Padova Udine Palermo Bologna Cagliari                                                            2.4682155542007798                   9204.0301
+Siracusa Monza Bologna Palermo Padova Modena Cagliari Catania Taranto Udine                                                            2.4349503026643227                   8986.4175
+Udine Modena Padova Cagliari Taranto Monza Siracusa Catania Bologna Palermo                                                            2.368153077414924                   9034.150800000001
+Siracusa Modena Bologna Palermo Padova Cagliari Taranto Catania Monza Udine                                                            2.1792522113961814                   9909.559700000002
+Udine Siracusa Cagliari Monza Taranto Padova Modena Catania Bologna Palermo                                                            2.1787631597294848                   10175.233600000001
 POPOLAZIONE N.ro 4
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Monza Palermo Siracusa Taranto Padova Cagliari Modena Catania Bologna Udine                                                            2.6535334451355426                   8026.765899999999
+Taranto Cagliari Palermo Bologna Padova Modena Udine Catania Monza Siracusa                                                            2.538373866933365                   8146.845300000001
+Siracusa Modena Bologna Palermo Padova Monza Udine Catania Taranto Cagliari                                                            2.498688188700932                   8253.847
+Taranto Cagliari Modena Siracusa Monza Catania Palermo Bologna Padova Udine                                                            2.483848773351283                   8755.8244
+Udine Siracusa Cagliari Monza Taranto Padova Modena Catania Bologna Palermo                                                            2.1787631597294848                   10175.233600000001
+Siracusa Monza Bologna Palermo Padova Catania Udine Cagliari Modena Taranto                                                            2.1469685877025935                   10511.320800000001
+Siracusa Monza Bologna Palermo Padova Cagliari Udine Catania Modena Taranto                                                            2.083394098994554                   10674.1975
 POPOLAZIONE N.ro 5
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Taranto Cagliari Palermo Siracusa Padova Monza Udine Catania Bologna Modena                                                            2.809754343177776                   7131.231500000001
+Taranto Cagliari Catania Siracusa Padova Palermo Udine Bologna Modena Monza                                                            2.716166077258628                   7539.3532
+Taranto Cagliari Catania Siracusa Padova Palermo Udine Bologna Modena Monza                                                            2.716166077258628                   7539.3532
+Bologna Monza Siracusa Palermo Padova Cagliari Catania Udine Modena Taranto                                                            2.550740607535398                   8328.3212
+Siracusa Monza Bologna Palermo Padova Udine Modena Catania Cagliari Taranto                                                            2.5061588854610206                   8249.750299999998
+Siracusa Modena Bologna Palermo Cagliari Padova Udine Catania Monza Taranto                                                            2.4643470589250023                   8613.0932
+Siracusa Monza Bologna Palermo Padova Catania Cagliari Modena Taranto Udine                                                            2.198145205075957                   10395.6606
 POPOLAZIONE N.ro 6
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Palermo Siracusa Padova Udine Bologna Monza Modena Catania                                                            3.2957399265709144                   5562.5442
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Taranto Cagliari Palermo Siracusa Padova Monza Udine Catania Bologna Modena                                                            2.809754343177776                   7131.231500000001
+Cagliari Monza Bologna Palermo Padova Udine Modena Catania Siracusa Taranto                                                            2.80269843805616                   7031.455899999999
+Taranto Cagliari Palermo Siracusa Padova Catania Udine Bologna Modena Monza                                                            2.785639471397054                   7273.8385
+Taranto Cagliari Catania Siracusa Padova Palermo Udine Bologna Modena Monza                                                            2.716166077258628                   7539.3532
+Siracusa Monza Bologna Palermo Padova Cagliari Udine Catania Taranto Modena                                                            2.099411325064452                   10563.0128
 POPOLAZIONE N.ro 7
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Catania Palermo Siracusa Padova Monza Udine Cagliari Bologna Modena                                                            3.3526220857332523                   5792.502
+Taranto Cagliari Palermo Siracusa Padova Udine Bologna Monza Modena Catania                                                            3.2957399265709144                   5562.5442
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Taranto Cagliari Palermo Siracusa Bologna Padova Udine Catania Monza Modena                                                            2.839247485846351                   7071.2324
+Cagliari Monza Bologna Palermo Padova Udine Modena Catania Taranto Siracusa                                                            2.782887468379441                   7095.839
+Taranto Cagliari Catania Siracusa Padova Palermo Udine Bologna Modena Monza                                                            2.716166077258628                   7539.3532
+Siracusa Monza Bologna Palermo Padova Udine Cagliari Taranto Modena Catania                                                            2.4066519860895514                   8836.473699999999
+Cagliari Monza Bologna Palermo Padova Taranto Udine Catania Siracusa Modena                                                            2.402841119339507                   9253.6972
 POPOLAZIONE N.ro 8
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Bologna Modena                                                            3.5728832453213095                   5060.9786
+Taranto Catania Palermo Siracusa Padova Monza Udine Cagliari Bologna Modena                                                            3.3526220857332523                   5792.502
+Taranto Cagliari Catania Siracusa Padova Udine Modena Monza Bologna Palermo                                                            3.191930798940279                   5847.617499999999
+Taranto Cagliari Palermo Siracusa Bologna Udine Modena Monza Catania Padova                                                            2.7917286663074643                   7255.789899999999
+Cagliari Monza Bologna Palermo Padova Udine Modena Catania Taranto Siracusa                                                            2.782887468379441                   7095.839
+Siracusa Monza Bologna Palermo Padova Udine Modena Catania Taranto Cagliari                                                            2.5077740997090983                   8237.435499999998
+Taranto Cagliari Catania Modena Padova Palermo Udine Bologna Monza Siracusa                                                            2.4645171148391043                   8477.4026
+Cagliari Monza Bologna Palermo Padova Catania Udine Taranto Siracusa Modena                                                            2.1949222668279202                   10178.9523
 POPOLAZIONE N.ro 9
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Bologna Modena                                                            3.5728832453213095                   5060.9786
+Taranto Cagliari Catania Siracusa Palermo Udine Modena Bologna Padova Monza                                                            3.4931447035193433                   5256.9321
+Taranto Cagliari Catania Siracusa Palermo Udine Modena Bologna Padova Monza                                                            3.4931447035193433                   5256.9321
+Taranto Cagliari Palermo Siracusa Bologna Monza Udine Catania Padova Modena                                                            2.7866563746157897                   7239.910500000001
+Taranto Cagliari Catania Siracusa Padova Udine Modena Palermo Monza Bologna                                                            2.753167519230875                   7401.6277
+Siracusa Monza Bologna Palermo Padova Udine Modena Catania Cagliari Taranto                                                            2.5061588854610206                   8249.750299999998
+Cagliari Monza Bologna Palermo Padova Catania Udine Taranto Siracusa Modena                                                            2.1949222668279202                   10178.9523
+Cagliari Monza Bologna Palermo Padova Catania Udine Taranto Siracusa Modena                                                            2.1949222668279202                   10178.9523
 POPOLAZIONE N.ro 10
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Bologna Modena                                                            3.5728832453213095                   5060.9786
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Bologna Padova Modena                                                            3.4922419844315855                   5282.232800000001
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Bologna Padova Modena                                                            3.4922419844315855                   5282.232800000001
+Cagliari Monza Bologna Palermo Padova Udine Modena Catania Taranto Siracusa                                                            2.782887468379441                   7095.839
+Cagliari Monza Bologna Palermo Padova Udine Modena Catania Taranto Siracusa                                                            2.782887468379441                   7095.839
+Taranto Cagliari Catania Siracusa Padova Monza Udine Palermo Bologna Modena                                                            2.739088157552351                   7396.7462000000005
+Cagliari Monza Catania Palermo Padova Bologna Udine Taranto Siracusa Modena                                                            2.67367526075018                   7932.8954
+Modena Bologna Monza Palermo Padova Catania Udine Taranto Siracusa Cagliari                                                            2.4438345719501555                   8948.1132
 POPOLAZIONE N.ro 11
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Modena Bologna                                                            3.5751569493900783                   5055.774
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Bologna Modena                                                            3.5728832453213095                   5060.9786
+Taranto Cagliari Catania Siracusa Palermo Modena Udine Bologna Padova Monza                                                            3.495831221268637                   5283.9481000000005
+Taranto Cagliari Catania Siracusa Palermo Udine Modena Bologna Padova Monza                                                            3.4931447035193433                   5256.9321
+Taranto Cagliari Catania Siracusa Monza Bologna Udine Padova Modena Palermo                                                            3.173776985038815                   5941.9030999999995
+Taranto Cagliari Catania Siracusa Padova Monza Udine Bologna Palermo Modena                                                            2.7416414207185844                   7420.0623000000005
+Cagliari Monza Bologna Palermo Padova Catania Udine Taranto Siracusa Modena                                                            2.1949222668279202                   10178.9523
+Cagliari Monza Bologna Catania Padova Palermo Udine Taranto Siracusa Modena                                                            2.1949222668279202                   10178.9522
 POPOLAZIONE N.ro 12
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Bologna Padova Modena                                                            4.03107149911518                   4179.5197
+Taranto Cagliari Catania Siracusa Palermo Bologna Udine Padova Monza Modena                                                            3.607711844839529                   4951.884300000001
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Modena Bologna                                                            3.5751569493900783                   5055.774
+Taranto Cagliari Siracusa Catania Palermo Monza Udine Padova Bologna Modena                                                            3.5726917731626537                   5060.800000000001
+Taranto Cagliari Catania Siracusa Monza Palermo Udine Bologna Padova Modena                                                            2.703740354406286                   7629.2725
+Padova Siracusa Bologna Catania Cagliari Udine Modena Palermo Taranto Monza                                                            2.3909831244411075                   8921.9827
+Taranto Cagliari Bologna Siracusa Monza Udine Modena Catania Padova Palermo                                                            2.271276752801052                   9661.123999999998
+Cagliari Monza Udine Catania Padova Taranto Bologna Siracusa Modena Palermo                                                            2.2513142046669743                   9765.3028
 POPOLAZIONE N.ro 13
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Bologna Padova Modena                                                            4.03107149911518                   4179.5197
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Bologna Padova Modena                                                            3.4922419844315855                   5282.232800000001
+Monza Cagliari Catania Siracusa Palermo Udine Modena Bologna Padova Taranto                                                            3.345108113894241                   5722.7195
+Taranto Cagliari Catania Siracusa Monza Padova Bologna Udine Modena Palermo                                                            3.13607426223853                   6055.6644
+Taranto Cagliari Catania Siracusa Monza Palermo Udine Padova Bologna Modena                                                            2.7518265248558733                   7408.0183
+Taranto Cagliari Catania Siracusa Monza Palermo Udine Bologna Padova Modena                                                            2.703740354406286                   7629.2725
+Padova Siracusa Bologna Catania Cagliari Palermo Udine Taranto Monza Modena                                                            2.476099450058312                   8665.256700000002
+Taranto Cagliari Bologna Siracusa Monza Catania Padova Udine Modena Palermo                                                            2.2942041520506744                   9536.032799999999
 POPOLAZIONE N.ro 14
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Bologna Padova Modena                                                            4.03107149911518                   4179.5197
+Cagliari Monza Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            3.573547174396249                   5283.956
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Bologna Modena                                                            3.5728832453213095                   5060.9786
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Bologna Modena                                                            3.5728832453213095                   5060.9786
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Bologna Padova Modena                                                            3.4922419844315855                   5282.232800000001
+Udine Cagliari Catania Padova Monza Palermo Taranto Bologna Siracusa Modena                                                            2.370134410322409                   9025.329600000001
+Taranto Cagliari Bologna Siracusa Monza Catania Padova Udine Modena Palermo                                                            2.2942041520506744                   9536.032799999999
+Taranto Cagliari Bologna Siracusa Monza Udine Modena Palermo Padova Catania                                                            2.271276752801052                   9661.1239
 POPOLAZIONE N.ro 15
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Bologna Padova Modena                                                            4.03107149911518                   4179.5197
+Monza Palermo Catania Siracusa Cagliari Taranto Udine Bologna Padova Modena                                                            3.541703559412077                   5198.6594000000005
+Taranto Cagliari Catania Siracusa Palermo Padova Monza Udine Bologna Modena                                                            3.526180124333111                   5145.872700000001
+Taranto Cagliari Catania Siracusa Palermo Monza Padova Modena Bologna Udine                                                            3.494695052909683                   5280.2711
+Siracusa Cagliari Catania Taranto Palermo Bologna Padova Udine Modena Monza                                                            3.168477451530216                   5903.4936
+Udine Cagliari Catania Padova Monza Taranto Palermo Siracusa Bologna Modena                                                            2.898466711109823                   6843.152700000001
+Taranto Cagliari Catania Padova Monza Bologna Modena Palermo Udine Siracusa                                                            2.4812110294792684                   8341.707699999999
 POPOLAZIONE N.ro 16
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Padova Modena Bologna Udine                                                            4.038119851397189                   4145.0621
+Taranto Cagliari Catania Siracusa Palermo Padova Udine Monza Bologna Modena                                                            3.5736748813539942                   5032.7648
+Monza Palermo Catania Siracusa Cagliari Bologna Modena Padova Udine Taranto                                                            3.534780472458758                   5582.376800000001
+Taranto Cagliari Catania Siracusa Palermo Padova Monza Udine Bologna Modena                                                            3.526180124333111                   5145.872700000001
+Catania Cagliari Udine Padova Monza Bologna Siracusa Taranto Modena Palermo                                                            3.027129131274482                   6464.688499999999
+Taranto Cagliari Catania Padova Monza Palermo Udine Siracusa Bologna Modena                                                            2.2153938859559537                   9809.006
+Taranto Cagliari Catania Padova Palermo Monza Udine Bologna Siracusa Modena                                                            2.2136578260551953                   9871.3314
 POPOLAZIONE N.ro 17
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Taranto Cagliari Catania Siracusa Palermo Monza Udine Padova Bologna Modena                                                            3.5728832453213095                   5060.9786
+Monza Palermo Catania Siracusa Cagliari Bologna Modena Udine Padova Taranto                                                            3.5347929671759126                   5583.562900000001
+Taranto Cagliari Catania Padova Monza Palermo Siracusa Udine Bologna Modena                                                            2.7043764924777767                   7559.140000000001
+Taranto Cagliari Catania Padova Monza Bologna Modena Palermo Udine Siracusa                                                            2.4812110294792684                   8341.707699999999
+Taranto Cagliari Catania Padova Monza Bologna Modena Palermo Udine Siracusa                                                            2.4812110294792684                   8341.707699999999
+Taranto Cagliari Catania Padova Palermo Bologna Monza Udine Modena Siracusa                                                            2.4792855690704165                   8340.5122
+Taranto Cagliari Catania Padova Monza Palermo Udine Siracusa Bologna Modena                                                            2.2153938859559537                   9809.006
 POPOLAZIONE N.ro 18
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Palermo Catania Siracusa Cagliari Bologna Padova Udine Modena Taranto                                                            3.5318591353302464                   5588.566400000001
+Modena Cagliari Catania Siracusa Palermo Padova Taranto Udine Bologna Monza                                                            3.439664839058082                   5772.9310000000005
+Monza Palermo Udine Siracusa Cagliari Taranto Catania Padova Bologna Modena                                                            2.482116351686102                   8357.586800000001
+Taranto Cagliari Catania Padova Monza Bologna Modena Palermo Udine Siracusa                                                            2.4812110294792684                   8341.707699999999
+Monza Cagliari Catania Padova Taranto Palermo Udine Siracusa Bologna Modena                                                            2.396093409305468                   8817.073799999998
+Taranto Cagliari Catania Padova Monza Palermo Udine Siracusa Bologna Modena                                                            2.2153938859559537                   9809.006
+Taranto Cagliari Siracusa Padova Catania Bologna Palermo Udine Modena Monza                                                            2.212937719080834                   9837.256699999998
 POPOLAZIONE N.ro 19
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Palermo Catania Siracusa Cagliari Taranto Udine Padova Bologna Modena                                                            3.624672420230022                   4977.4052
+Taranto Cagliari Palermo Padova Catania Siracusa Modena Udine Bologna Monza                                                            2.788614644130942                   7310.5735
+Monza Cagliari Catania Padova Palermo Siracusa Modena Taranto Bologna Udine                                                            2.6321330806485577                   7955.957600000001
+Monza Palermo Udine Siracusa Cagliari Taranto Catania Padova Bologna Modena                                                            2.482116351686102                   8357.586800000001
+Monza Palermo Udine Siracusa Cagliari Catania Padova Taranto Bologna Modena                                                            2.4111491536866474                   8975.3416
+Monza Palermo Udine Catania Cagliari Taranto Modena Padova Bologna Siracusa                                                            2.219608017224158                   9867.847300000001
+Monza Palermo Udine Siracusa Cagliari Bologna Catania Padova Modena Taranto                                                            2.198541487577141                   10356.4081
 POPOLAZIONE N.ro 20
-Percorso                                                           Durata Viaggio        [Km]
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-Roma Napoli                                                            62.43366423175377                   460.9241
-Napoli Roma                                                            62.43366423175377                   460.9241
-
-
-miglior percorso trovato 
-Napoli Roma                                                            266:56:00                   460.9241
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Palermo Catania Siracusa Cagliari Bologna Udine Padova Modena Taranto                                                            3.5318716094032547                   5589.7525000000005
+Monza Cagliari Catania Siracusa Palermo Padova Modena Taranto Bologna Udine                                                            3.37840120541355                   5612.3604000000005
+Monza Cagliari Catania Siracusa Palermo Padova Modena Udine Bologna Taranto                                                            3.345063355499953                   5722.3766000000005
+Monza Palermo Cagliari Siracusa Udine Catania Modena Taranto Bologna Padova                                                            2.48668999181879                   8639.7775
+Monza Palermo Cagliari Siracusa Udine Catania Padova Taranto Bologna Modena                                                            2.4840338722858823                   8639.3042
+Monza Palermo Udine Siracusa Cagliari Taranto Catania Padova Bologna Modena                                                            2.482116351686102                   8357.586800000001
+POPOLAZIONE N.ro 21
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Udine Padova Taranto Bologna Modena                                                            3.451131971286582                   5420.0373
+Monza Udine Cagliari Siracusa Palermo Taranto Catania Padova Bologna Modena                                                            3.40310839921184                   5281.338999999999
+Monza Palermo Catania Siracusa Udine Taranto Cagliari Padova Bologna Modena                                                            2.963296608210702                   6711.148
+Monza Palermo Cagliari Siracusa Udine Taranto Catania Padova Bologna Modena                                                            2.795568464869489                   7248.4674
+Monza Palermo Cagliari Siracusa Udine Padova Modena Catania Bologna Taranto                                                            2.5107712084843983                   8487.2731
+Monza Palermo Cagliari Siracusa Udine Bologna Catania Padova Modena Taranto                                                            2.4667056406157886                   8723.0754
+Monza Palermo Udine Siracusa Cagliari Padova Modena Taranto Bologna Catania                                                            2.134963876411211                   10506.0116
+POPOLAZIONE N.ro 22
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Udine Cagliari Siracusa Palermo Taranto Catania Padova Bologna Modena                                                            3.40310839921184                   5281.338999999999
+Monza Cagliari Bologna Siracusa Palermo Catania Udine Padova Modena Taranto                                                            3.0030210391654                   6882.342000000001
+Monza Palermo Catania Siracusa Udine Taranto Cagliari Padova Bologna Modena                                                            2.963296608210702                   6711.148
+Monza Palermo Cagliari Siracusa Udine Taranto Catania Padova Bologna Modena                                                            2.795568464869489                   7248.4674
+Monza Palermo Cagliari Bologna Udine Taranto Catania Padova Siracusa Modena                                                            2.5300058696136176                   8588.4522
+Palermo Monza Cagliari Siracusa Udine Taranto Bologna Padova Catania Modena                                                            2.1600791452998838                   10308.4809
+POPOLAZIONE N.ro 23
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Taranto Palermo Catania Siracusa Udine Monza Cagliari Padova Bologna Modena                                                            3.300765777660417                   5663.0755
+Monza Palermo Cagliari Siracusa Udine Taranto Catania Padova Bologna Modena                                                            2.795568464869489                   7248.4674
+Monza Cagliari Bologna Siracusa Palermo Taranto Udine Padova Catania Modena                                                            2.7560812933738297                   7594.968999999999
+Monza Palermo Cagliari Bologna Udine Taranto Catania Padova Siracusa Modena                                                            2.5300058696136176                   8588.4522
+Monza Catania Cagliari Bologna Udine Taranto Palermo Padova Siracusa Modena                                                            2.453373634084229                   8924.4751
+Palermo Udine Cagliari Siracusa Monza Taranto Bologna Padova Catania Modena                                                            2.1157259796340218                   10616.6381
+POPOLAZIONE N.ro 24
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Bologna Padova Udine Modena                                                            4.138113682259079                   3958.2623
+Monza Modena Cagliari Bologna Udine Taranto Palermo Padova Siracusa Catania                                                            2.7413407897802817                   7959.452000000001
+Monza Palermo Cagliari Bologna Udine Taranto Catania Padova Siracusa Modena                                                            2.5300058696136176                   8588.4522
+Monza Palermo Cagliari Bologna Udine Taranto Catania Padova Siracusa Modena                                                            2.5300058696136176                   8588.4522
+Monza Catania Cagliari Bologna Udine Palermo Taranto Padova Siracusa Modena                                                            2.4748738433058377                   8852.703399999999
+Monza Catania Cagliari Bologna Modena Taranto Palermo Padova Siracusa Udine                                                            2.4535602385841973                   8867.8616
+Monza Catania Cagliari Bologna Udine Taranto Palermo Padova Siracusa Modena                                                            2.453373634084229                   8924.4751
+POPOLAZIONE N.ro 25
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Siracusa Catania Cagliari Palermo Taranto Bologna Padova Udine Modena                                                            3.7798751885212747                   4660.4913
+Monza Palermo Cagliari Bologna Udine Taranto Modena Padova Siracusa Catania                                                            2.788124818771887                   7745.816700000001
+Monza Catania Cagliari Bologna Modena Taranto Udine Padova Palermo Siracusa                                                            2.7259394950469678                   7924.827
+Monza Palermo Cagliari Bologna Udine Catania Taranto Padova Siracusa Modena                                                            2.5512286717283046                   8517.5171
+Monza Palermo Cagliari Bologna Udine Catania Taranto Padova Siracusa Modena                                                            2.5512286717283046                   8517.5171
+Monza Palermo Cagliari Bologna Udine Modena Catania Padova Siracusa Taranto                                                            2.5360885399231057                   8558.7391
+Monza Catania Cagliari Bologna Udine Taranto Palermo Padova Siracusa Modena                                                            2.453373634084229                   8924.4751
+POPOLAZIONE N.ro 26
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Siracusa Catania Bologna Palermo Taranto Modena Padova Cagliari Udine                                                            2.567730306150484                   8111.211300000001
+Monza Palermo Cagliari Bologna Udine Taranto Catania Padova Modena Siracusa                                                            2.51799104602384                   8650.6908
+Cagliari Palermo Monza Bologna Udine Taranto Catania Padova Siracusa Modena                                                            2.4873765639380148                   8756.471
+Monza Catania Cagliari Bologna Udine Palermo Taranto Padova Siracusa Modena                                                            2.4748738433058377                   8852.703399999999
+Monza Catania Cagliari Bologna Udine Modena Palermo Padova Siracusa Taranto                                                            2.460623866575131                   8893.9253
+Cagliari Catania Monza Bologna Modena Palermo Taranto Padova Siracusa Udine                                                            2.3532235632981844                   9136.6695
+POPOLAZIONE N.ro 27
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Padova Cagliari Bologna Udine Taranto Catania Palermo Siracusa Modena                                                            3.3521950172973263                   5852.6771
+Cagliari Palermo Monza Bologna Udine Taranto Catania Padova Siracusa Modena                                                            2.4873765639380148                   8756.471
+Cagliari Catania Monza Bologna Modena Udine Palermo Padova Siracusa Taranto                                                            2.460757076522163                   8491.1116
+Monza Catania Cagliari Bologna Udine Modena Palermo Padova Siracusa Taranto                                                            2.460623866575131                   8893.9253
+Monza Catania Cagliari Bologna Udine Taranto Palermo Padova Siracusa Modena                                                            2.453373634084229                   8924.4751
+Cagliari Catania Monza Bologna Modena Taranto Palermo Padova Siracusa Udine                                                            2.3292757350029585                   9227.6743
+Monza Siracusa Modena Bologna Palermo Cagliari Taranto Padova Udine Catania                                                            2.3172447033579195                   9331.8986
+POPOLAZIONE N.ro 28
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Bologna Padova Udine Modena                                                            4.138113682259079                   3958.2623
+Monza Cagliari Catania Siracusa Palermo Taranto Bologna Padova Modena Udine                                                            4.037810053339471                   4145.5819
+Monza Padova Cagliari Bologna Udine Taranto Catania Palermo Siracusa Modena                                                            3.3521950172973263                   5852.6771
+Cagliari Modena Monza Bologna Catania Taranto Udine Padova Palermo Siracusa                                                            3.165719061427613                   6341.8228
+Cagliari Palermo Monza Bologna Udine Taranto Modena Padova Siracusa Catania                                                            3.1032096497407267                   6465.6736
+Cagliari Catania Monza Bologna Modena Siracusa Palermo Padova Taranto Udine                                                            2.553580502902144                   8347.5694
+Cagliari Palermo Monza Bologna Udine Catania Modena Padova Siracusa Taranto                                                            2.5359213255767954                   8187.0499
+POPOLAZIONE N.ro 29
+Percorso                                                       Fitness       [Km]
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Taranto Udine Padova Bologna Modena                                                            4.13890153553247                   3958.2655
+Monza Cagliari Catania Siracusa Palermo Bologna Modena Padova Udine Taranto                                                            3.4187917306265616                   5500.797500000001
+Monza Cagliari Bologna Siracusa Palermo Udine Modena Padova Catania Taranto                                                            2.6865038108056556                   7870.490100000001
+Cagliari Catania Monza Bologna Modena Taranto Padova Palermo Siracusa Udine                                                            2.548998116290392                   8367.810200000002
+Cagliari Palermo Monza Bologna Udine Catania Modena Padova Siracusa Taranto                                                            2.5359213255767954                   8187.0499
+Monza Padova Cagliari Bologna Udine Siracusa Modena Palermo Taranto Catania                                                            2.4123648171065617                   8966.2188
+Cagliari Catania Monza Bologna Modena Taranto Palermo Padova Siracusa Udine                                                            2.3292757350029585                   9227.6743
