@@ -23,11 +23,15 @@ class Algoritmo_Genetico:
         popolazionecross = popolazione(self.percorsoiniziale)
         popolazionecross.set_percorso(popolazione_precedente.get_percorsi()[0], 0)
         for index in range(1, len(popolazione_precedente.get_percorsi())):
-            a = int(random() * (len(popolazione_precedente.get_percorsi())))
-            b = int(random() * (len(popolazione_precedente.get_percorsi())))
-            #l= self.selezioneMontecarlo(popolazione_precedente)
-            #a = l[0]
-            #b = l[1]
+
+            #a = int(random() * (len(popolazione_precedente.get_percorsi())))
+            #b = int(random() * (len(popolazione_precedente.get_percorsi())))
+
+            l= self.selezioneMontecarlo(popolazione_precedente)
+            a = l[0]
+            b = l[1]
+
+
             percorso1 = popolazione_precedente.get_percorsi()[a]
             percorso2 = popolazione_precedente.get_percorsi()[b]
             popolazionecross.set_percorso(self.crossover_percorso(percorso1, percorso2), index)

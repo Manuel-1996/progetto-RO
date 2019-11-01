@@ -6,30 +6,30 @@ from Algoritmo_Genetico import Algoritmo_Genetico
 
 class Main:
     file = open("risultati.txt", mode='w')
-    initpercorso = []
+    initpercorso = [citta("Trapani"),citta("Cosenza"),citta("Bolzano"),citta("Novara"),citta("Arezzo"),citta("Barletta"),citta("Pisa"),citta("Lucca"),citta("Viterbo"),citta("Savona")]
     if __name__ == "__main__":
 
-        numcitta = input("Inserire il numero delle citta/paesi : ")
-        index = 0
-        orig = input("Location:")
-        cit = citta(orig)
-        initpercorso = initpercorso + [cit]
-        while (index < int(numcitta) - 1):
-            orig = input("OtherLocation:")
-            cit = citta(orig)
-            initpercorso = initpercorso + [cit]
-            index = index + 1
-        print("\nBene.Cominciamo")
-        print("\nCitta Inserite : ")
-        for citta in initpercorso:
-            print(citta.get_nome())
-        input()
+     #   numcitta = input("Inserire il numero delle citta/paesi : ")
+     #   index = 0
+    #    orig = input("Location:")
+   #     cit = citta(orig)
+      #  initpercorso = initpercorso + [cit]
+    #    while (index < int(numcitta) - 1):
+     #       orig = input("OtherLocation:")
+     #       cit = citta(orig)
+      #      initpercorso = initpercorso + [cit]
+      #      index = index + 1
+      #  print("\nBene.Cominciamo")
+      #  print("\nCitta Inserite : ")
+      #  for citta in initpercorso:
+      #      print(citta.get_nome())
+      #  input()
 
         generazioni = 0
         popolazioneiniziale = popolazione(initpercorso)
 
         popolazioneiniziale.ordina_fitnes()
-        file.writelines("POPOLAZIONE N.ro ")
+        file.writelines("")
         file.writelines(str(generazioni) + "\n")
         file.writelines(
             "Percorso                                                                               Fitness         [Km]\n")
@@ -40,7 +40,7 @@ class Main:
         while (generazioni < 40):
             popolazione = algoritmo_genetico.evoluzione(popolazioneiniziale)
             popolazione.ordina_fitnes()
-            file.writelines("POPOLAZIONE N.ro ")
+            file.writelines("")
             generazioni = generazioni + 1
 
             file.writelines(str(generazioni) + "\n")
