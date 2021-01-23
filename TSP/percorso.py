@@ -3,7 +3,7 @@ import random
 import sys
 import requests
 import urllib.parse
-
+from Calculator import Calculator
 # KEY & URL per le richiesta HTTPS al sito MaPQuest
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
 key = "NZyohcywpvty6coBPFFrSOt8jRtXfEnu"
@@ -69,22 +69,14 @@ class percorso:
         cities = self.get_citta();
         totale = 0
         for index in range(len(cities) - 1):
-            # CREATE_URL_FOR_HTTP_REQUEST
-            url = main_api + urllib.parse.urlencode(
-                {"key": key, "from": cities[index].get_nome(), "to": cities[index + 1].get_nome(), "unit": "k"})
-            # print("Directions from "  , cities[index].get_nome()           , " to " ,cities[index+1].get_nome(),sep=" ")
-            json_data = requests.get(url).json()
-            # AGGIORNO TOTALE
-            totale = totale + float(json_data["route"]["distance"])
-            self.totale_secondi = self.totale_secondi + json_data["route"]["time"]
+            c=Calculator.instance()
+            vettore = c.get_vettore();
+            distanze=vettore[0]
+            tempi = vettore[1]
+            totale = totale + float(distanze[cities[index].get_nome()][cities[index + 1].get_nome()])
+            self.totale_secondi = self.totale_secondi + tempi[cities[index].get_nome()][cities[index + 1].get_nome()]
         # A questo punto manca l'ultima tratta (ultima destinazione con l'origine)
-        # CREATE_URL_FOR_HTTP_REQUEST
-        url = main_api + urllib.parse.urlencode(
-            {"key": key, "from": cities[len(cities) - 1].get_nome(), "to": cities[0].get_nome(), "unit": "k"})
-        json_data = requests.get(url).json()
-        # AGGIORNO TOTALE
-        totale = totale + float(json_data["route"]["distance"])
-        self.totale_secondi = self.totale_secondi + json_data["route"]["time"]
+        self.totale_secondi = self.totale_secondi + tempi[cities[len(cities) - 1].get_nome()][cities[0].get_nome()]
         return totale
 
     def somma_orari(self, orario1, orario2):
