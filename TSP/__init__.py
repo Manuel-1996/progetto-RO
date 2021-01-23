@@ -10,7 +10,7 @@ main_api = "https://www.mapquestapi.com/directions/v2/route?"
 key = "AbrBmasLEQOJRu2dOqTSwolJAXnALuJD"
 
 class Main:
-    file = open("risultati.txt", mode='w')
+    file = open("./risultati/risultati.txt", mode='w')
     initpercorso = [citta("Trapani"),citta("Cosenza"),citta("Bolzano"),citta("Novara"),citta("Arezzo"),citta("Barletta"),citta("Pisa"),citta("Lucca"),citta("Viterbo"),citta("Savona")]
     #initpercorso = [citta("Trapani"),citta("Cosenza"),citta("Roma")]
     if __name__ == "__main__":

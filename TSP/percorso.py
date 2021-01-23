@@ -3,14 +3,9 @@ import random
 import sys
 import requests
 import urllib.parse
-from Calculator import Calculator
+
 # KEY & URL per le richiesta HTTPS al sito MaPQuest
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
-#prossimo token FPxjzDTW66AYgyGxJu3eGh9GE5osmChR
-#prossimo token tGElBs1wJv893YWj6eqSjg2RgtrATXRa
-#prossimo token 70BJ0tn1yYiGmQN1m858zaeyfoXoPdQ7
-#prossimo token 5T8PZriMHgvwEc9KDB9P3AGC9FEknBUz
-#prossimo token NZyohcywpvty6coBPFFrSOt8jRtXfEnu
 key = "NZyohcywpvty6coBPFFrSOt8jRtXfEnu"
 
 
@@ -19,7 +14,7 @@ class percorso:
         self.totalekm=0
         self.totale_secondi = 0
         self.boolean = False
-        cittamia = []
+        cittamia = [];
         self.citta = []
 
         for citta in citta:
@@ -74,29 +69,22 @@ class percorso:
         cities = self.get_citta();
         totale = 0
         for index in range(len(cities) - 1):
-            '''
             # CREATE_URL_FOR_HTTP_REQUEST
             url = main_api + urllib.parse.urlencode(
                 {"key": key, "from": cities[index].get_nome(), "to": cities[index + 1].get_nome(), "unit": "k"})
             # print("Directions from "  , cities[index].get_nome()           , " to " ,cities[index+1].get_nome(),sep=" ")
             json_data = requests.get(url).json()
-            '''
-            c = Calculator.instance()
-            distanze = c.get_vettore()[0]
-            tempi = c.get_vettore()[1]
             # AGGIORNO TOTALE
-            totale = totale + float(distanze[cities[index].get_nome()][cities[index + 1].get_nome()])
-            self.totale_secondi = self.totale_secondi + tempi[cities[index].get_nome()][cities[index + 1].get_nome()]
+            totale = totale + float(json_data["route"]["distance"])
+            self.totale_secondi = self.totale_secondi + json_data["route"]["time"]
         # A questo punto manca l'ultima tratta (ultima destinazione con l'origine)
         # CREATE_URL_FOR_HTTP_REQUEST
-        '''
         url = main_api + urllib.parse.urlencode(
             {"key": key, "from": cities[len(cities) - 1].get_nome(), "to": cities[0].get_nome(), "unit": "k"})
         json_data = requests.get(url).json()
-        '''
         # AGGIORNO TOTALE
-        totale = totale + float(distanze[cities[len(cities) - 1].get_nome()][cities[0].get_nome()])
-        self.totale_secondi = self.totale_secondi + tempi[cities[len(cities) - 1].get_nome()][cities[0].get_nome()]
+        totale = totale + float(json_data["route"]["distance"])
+        self.totale_secondi = self.totale_secondi + json_data["route"]["time"]
         return totale
 
     def somma_orari(self, orario1, orario2):
