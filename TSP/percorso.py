@@ -76,6 +76,8 @@ class percorso:
             totale = totale + float(distanze[cities[index].get_nome()][cities[index + 1].get_nome()])
             self.totale_secondi = self.totale_secondi + tempi[cities[index].get_nome()][cities[index + 1].get_nome()]
         # A questo punto manca l'ultima tratta (ultima destinazione con l'origine)
+       
+        totale = totale + float(distanze[cities[len(cities) - 1].get_nome()][cities[0].get_nome()])
         self.totale_secondi = self.totale_secondi + tempi[cities[len(cities) - 1].get_nome()][cities[0].get_nome()]
         return totale
 
