@@ -1,6 +1,7 @@
 from citta import citta
-import random
+
 import sys
+import random
 import requests
 import urllib.parse
 from Calculator import Calculator

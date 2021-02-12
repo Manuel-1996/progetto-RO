@@ -1,9 +1,11 @@
 from citta import citta
 from popolazione import popolazione
 import random
-from Algoritmo_Genetico import Algoritmo_Genetico
-import urllib.parse
+from Algoritmo_Genetico import algoritmo_genetico
 import requests
+import requests
+import urllib.parse
+
 from Calculator import Calculator
 
 main_api = "https://www.mapquestapi.com/directions/v2/route?"

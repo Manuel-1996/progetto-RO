@@ -1,7 +1,7 @@
 from percorso import percorso
-import random
-import sys
 
+import sys
+import random
 class popolazione:
 
     def __init__(self, percorsoiniziale):

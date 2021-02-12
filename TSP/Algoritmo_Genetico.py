@@ -1,7 +1,6 @@
 from random import random
-from percorso import percorso
 from popolazione import popolazione
-
+from percorso import percorso
 
 class Algoritmo_Genetico:
 
